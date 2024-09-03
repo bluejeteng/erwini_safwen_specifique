@@ -1,0 +1,72 @@
+.fertigation-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.subheader {
+    font-size: 14px;
+    color: #666;
+}
+
+.motor-status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.motor-status span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.toggle-switch {
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.toggle-switch.open {
+    background-color: #4caf50;
+}
+
+.toggle-switch.closed {
+    background-color: #f44336;
+}
+
+.tank-visualization {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tank {
+    width: 50px;
+    height: 150px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 10px;
+    position: relative;
+}
+
+.tank-level {
+    width: 100%;
+    background-color: #4caf50;
+    border-radius: 5px 5px 0 0;
+    transition: height 0.5s ease;
+}
+
+.tank-label {
+    position: absolute;
+    bottom: -30px;
+    font-weight: bold;
+    color: #333;
+}

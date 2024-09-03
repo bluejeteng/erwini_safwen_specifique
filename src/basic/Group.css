@@ -1,0 +1,51 @@
+.group-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+.current-date {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.status-section {
+    margin-bottom: 20px;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.status-item p {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.status-bar {
+    width: 200px;
+    height: 30px;
+    background-color: #28a745;
+}
+
+.history-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.history-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.history-section ul li {
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 16px;
+}

@@ -6,16 +6,14 @@ export default function App() {
   return (
     <MDBContainer className="d-flex justify-content-center">
       <Link to="/basic">
-        <MDBBtn className="m-3">
-          Basic
-        </MDBBtn>
+        <MDBBtn className="m-3">Erwini</MDBBtn>
       </Link>
 
-      <Link to="/collapsed">
+      {/* <Link to="/collapsed">
         <MDBBtn className="m-3">
           Collapsed
         </MDBBtn>
-      </Link>
+      </Link> */}
     </MDBContainer>
   );
 }
